@@ -1,8 +1,12 @@
 package sample.model;
 
+/** Classes */
+
 public class Pessoa {
    private String nome;
    private Contato contato;
+
+    /** Getter e Setter */
 
    public Pessoa(String nome){
        this.nome = nome;
@@ -26,6 +30,8 @@ public class Pessoa {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    /** ToString */
 
     @Override
     public String toString() {

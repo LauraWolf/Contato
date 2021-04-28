@@ -1,9 +1,13 @@
 package sample.model;
 
+/** Classes */
+
 public class Contato {
     private String whatsapp;
     private String email;
     private String twitter;
+
+    /** Getter e Setter */
 
     public String getWhatsapp() {
         return whatsapp;
@@ -28,6 +32,8 @@ public class Contato {
     public void setTwitter(String twitter) {
         this.twitter = twitter;
     }
+
+    /** ToString */
 
     @Override
     public String toString() {
